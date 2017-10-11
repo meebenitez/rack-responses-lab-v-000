@@ -8,7 +8,7 @@ class Application
 
     time = Time.new
 #binding.pry
-    if time.hour > 11
+    if time.hour >= 12
       resp.write "Good Afternoon"
     else
       resp.write "Good Morning"
